@@ -1,0 +1,167 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: grey;
+	overflow: hidden;
+}		
+#bodyWrapper {
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	height: 768px;
+	background: grey;
+	font-size: 70px;
+}
+#gameDiv {
+	position: absolute;
+	margin: 0 auto;
+	width: 1024px;
+	height: 768px;
+}
+#endDiv {
+	position: absolute;
+	background: #FAE9CD;
+	background-image: url("images/top.png");
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 1024px;
+	height: 768px;
+	font-size: 36px;
+	display: none;
+}		
+#helpDiv {
+	position: absolute;
+	margin: 150px auto;
+	width: 1024px;
+	height: 510px;
+	background: #FAE9CD;
+	font-size: 20px;		
+	display: none;
+}
+#scoreDiv {
+	position: absolute;
+	margin: 150px auto;
+	width: 1024px;
+	height: 510px;
+	background: #FAE9CD;
+	font-size: 20px;
+	text-align: center;
+	display: none;			
+}
+#current{
+	position: absolute;
+	margin: 160px auto;
+	font-size: 30px;
+	padding-left:20px;
+	display: none;
+}
+#correct {
+	margin: 0px auto;
+	position: absolute;
+	width: 1024px;
+	height: 230px;
+	background: green;
+	text-align: center;
+	font-size: 70px;
+	padding-top:220px;
+	padding-bottom:318px;
+	display: none;
+}
+#wrong {
+	margin: 0px auto;
+	position: absolute;
+	width: 1024px;
+	height: 230px;
+	background: red;
+	text-align: center;
+	font-size: 70px;
+	padding-top:220px;
+	padding-bottom:318px;
+	display: none;
+}
+#counter {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	text-align: center;
+}
+
+#topWrapper {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+	height: 80px;
+	background: green;
+	font-size: 70px;
+	padding: 10px;
+	display: none;			
+}
+#question {
+	position: relative;
+	width: 310px;
+	height: 80px;
+	background: #FFBF00;
+	float: left;
+	text-align: center;
+}
+
+#answer {
+	position: relative;
+	float: right;
+	width: 170px;
+	height: 80px;
+	background: purple;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+#formDiv{
+	position: absolute;
+	background: #FAE9CD;
+	margin: 340px auto;
+	width: 1024px;
+	height: 400px;
+	font-size: 36px;
+	text-align: center;
+	display: none;
+}
+#user{
+	height: 40px;
+}
+#bGet{
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	background-color: green;
+	color: white;
+	border-radius: 15px;
+}
+.help{
+	padding:20px;
+}
+p{
+	text-align: center;
+	padding:200px;
+}
+a:link {
+	color: #0000FF;
+}
+a:visited {
+	color: #0000FF;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+}
